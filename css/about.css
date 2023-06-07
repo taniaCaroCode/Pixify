@@ -1,0 +1,95 @@
+h1 {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+   
+   
+
+}
+
+article {
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding: 60px;
+    position: relative;
+   
+    
+    
+    
+}
+
+.about p {
+
+    text-align: left ;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: auto 35%;
+    column-gap: 35px;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 150px;
+    
+   
+ 
+}
+
+.details {
+    border: 1px solid ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.img {
+    background-image: url(/assets/about.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+    border-radius: 8px;
+    border: 1px solid salmon;
+}
+
+.deadline {
+
+    position: absolute;
+    left: 60px;
+    bottom: 300px;
+}
+
+.details a {
+    
+    color: var(--teal-text);
+    border: none;
+    border-radius: 60px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 2;
+    text-align: center;
+    background: var(--body-color);
+    cursor: grab;
+    padding: 30px 70px;
+    position: absolute;
+    left: 55px;
+    bottom: 60px;
+   
+}
+

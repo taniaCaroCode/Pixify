@@ -1,0 +1,137 @@
+
+
+
+#dark-mode-tab {
+    color: var(--teal-text);
+}
+
+.main{
+    display: flex;
+    padding: 30px;
+    align-items: space-between;
+    row-gap: 20px;
+    
+}
+
+
+
+section { 
+    border: 1px solid red;
+    text-align: center;
+    flex-wrap: wrap;
+   
+    
+   
+   
+    
+}
+
+section h1 {
+
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 36px;
+}
+
+#pictures-container{
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-auto-rows: max-content;
+    justify-content: center;
+    gap:20px;
+    padding: 0 20px;
+    min-height: 100vh;
+    width:100%;
+    align-items: center;
+    
+}
+
+.image{
+   border: 1px solid blue;          
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 500px;
+   max-width: 1600px;
+  
+
+}
+
+
+
+.picture-image{
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.image-info{
+    border: 1px solid orangered;
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px; 
+   
+}
+
+#see-more{
+    color: var(--black-text);
+}
+
+
+aside {
+    padding-left: 35px;
+    width: 30%;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+form {
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 0 1 20px;
+    flex-wrap: wrap;
+   
+
+    
+}
+
+form h2 {
+    color: var(--white-text);
+    text-align: center;
+}
+
+form input {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+#submit-btn {
+    color: var(--teal-text);
+    border: 2px solid var(--teal-text);
+    border-radius: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    background: transparent;
+    cursor: grab;
+    padding: 25px 0px;
+    width: 100%;  
+}
+
+
+
+
+

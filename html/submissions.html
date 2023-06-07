@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/submissions.css" rel="stylesheet">
+    <script src="/js/script.js"></script>
+    <title>Pixify</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">PIXIFY</a></h1>
+        <nav>
+            <a href="submissions.html">2023 Submissions</a>
+            <a href="about.html">About</a>
+            <a href="#" id="dark-mode-tab">Dark Mode</a>
+        </nav>   
+    </header> 
+
+<div class="main">
+    <section>
+         <h1 id="h1Sub">2023 SUBMISSIONS</h1>
+      
+      <div id="pictures-container"></div> 
+    
+    </section>
+
+         
+    <aside>
+            
+     <form onsubmit="formInput(event)" id="submissions-form">  
+            <h2>SUBMIT YOUR WORK</h2>
+            <input type="text" placeholder="Your Name" name="name" required>
+            <input type="text" placeholder="Title of Your Entry" name="title" required>
+            <input type="text" placeholder="Image Url One" name="imageUrl1" required>
+            <input type="text" placeholder="Image Url Two" name="imageUrl2" required>
+            <input type="text" placeholder="Image Url Three" name="imageUrl3" required>
+            <input type="text" placeholder="Image Url Four" name="imageUrl4" required>
+            <input type="text" placeholder="Image Url Five" name="imageUrl5" required>
+            <br>
+            <button id="submit-btn">SUBMIT</button>
+        </form>
+    
+    </aside>
+</div>
+
+<script src="/js/script.js"></script> 
+</body>
+</html>
