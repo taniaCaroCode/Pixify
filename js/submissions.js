@@ -49,28 +49,33 @@ const imageSets = [
     }
   ];
 
- 
 
+  /*ADD New picture*/
+const submitBtn = document.querySelector("#submit-btn");
 
+submitBtn.addEventListener("click", (e) => {
+ e.preventDefault();
 
+ const name = document.querySelector("input[name='name']").value;
+ const title = document.querySelector("input[name='title']").value;
+ const imageOne = document.querySelector("input[name='imageUrl1']").value;
+ const imagesTwo = document.querySelector("input[name='imageUrl2']").value;
+ const imagesThree = document.querySelector("input[name='imageUrl3']").value;
+ const imagesFour = document.querySelector("input[name='imageUrl4']").value;
+ const imagesFive = document.querySelector("input[name='imageUrl5']").value;
 
+/*Create picture div*/
+const newPicture = document.createElement("div");
+newPicture.innerHTML = `<div class="image">
+<img src=${images[0]} alt=${name} class="picture-image">
+  <div class="image-info">
+    <p id="submission-description">${title} - ${name}</p>
+</div>
+</div>`;
 
+const pictureContainer = document.querySelector("#pictures-container");
+pictureContainer.insertBefore(newPicture, pictureContainer.firstChild);
 
-  window.onload = function () {
+});
 
-    const urlParans = new URLSearchParams(window.location.search);
-        let currentId = urlParans.get("id");
-
-        console.log(currentId);
-
-  }
-
-
-
-
-
-
-
-
-
-
+const displaySubmissions = document.querySelector();

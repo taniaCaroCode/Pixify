@@ -10,7 +10,7 @@ h1 {
 p {
 
     font-weight: 400;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 1.5;
     text-align: center;
    
@@ -47,7 +47,6 @@ article {
 }
 
 .details {
-    border: 1px solid ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -65,14 +64,14 @@ article {
     position: relative;
     height: 75vh;
     border-radius: 8px;
-    border: 1px solid salmon;
+  
 }
 
 .deadline {
 
     position: absolute;
     left: 60px;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 .details a {
